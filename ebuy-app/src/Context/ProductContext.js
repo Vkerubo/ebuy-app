@@ -13,6 +13,8 @@ const productprovider = ({ children }) => {
             const data = await response.json();
             setProducts(data);
         };
+        fetchProducts();
+    },[]);
     }
 
 }
