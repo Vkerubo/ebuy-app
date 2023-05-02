@@ -19,11 +19,7 @@ return (
     <ProductContext.provider value={{ products}}>
         {children}
     </ProductContext.provider>
-)
-    }
-
-
-     
-
-
+);
+    };
+    
 export default productprovider;
