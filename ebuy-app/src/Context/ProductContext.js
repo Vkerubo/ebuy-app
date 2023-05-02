@@ -1,8 +1,6 @@
 import React ,{createContext,}from 'react'
+// create context
 
-export const ProductContext = () => {
-  return (
-    <div>ProductContext</div>
-  )
-}
+export const ProductContext = createContext();
+
 export default productprovider;
