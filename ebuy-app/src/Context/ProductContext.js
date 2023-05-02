@@ -5,6 +5,8 @@ export const ProductContext = createContext();
  
 const productprovider = ({ children }) => {
     // products state
+    const [products, setProducts] = useState([]);
+    
 }
      
 
