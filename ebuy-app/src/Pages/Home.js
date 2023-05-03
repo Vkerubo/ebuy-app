@@ -7,7 +7,9 @@ import { ProductContext } from '../contexts/ProductContext';
 import Product from '../components/Product';
 import Hero from '../components/Hero';
 
-  const { products } = useContext(ProductContext);
+//new component
+const Home = () => {
+    // access the products
   const filteredProducts = products.filter((item) => {
     return (
       item.category === "men's clothing" || item.category === "women's clothing"
