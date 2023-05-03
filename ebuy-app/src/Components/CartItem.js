@@ -2,3 +2,8 @@
    //imports from useContext
 
    import { Link } from 'react-router-dom';
+
+   // import icons
+   import { IoMdAdd, IoMdClose, IoMdRemove } from 'react-icons/io';
+   
+
