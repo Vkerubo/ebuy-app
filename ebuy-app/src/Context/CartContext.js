@@ -1,4 +1,4 @@
-import React, { createContext, useState, useEffect } from "react";
+import React, { createContext, useState, useEffect, useImperativeHandle } from "react";
 
 // create context
 export const CartContext = createContext();
@@ -12,7 +12,7 @@ const CartProvider = ({ children }) => {
   const [total, setTotal] = useState(0);
 
   //calculate total price
-  useEffect(() => {
+  useEffect(() => {useImperativeHandle
     const total = cart.reduce((accumulator, currentItem) => {
       return accumulator + currentItem.price * currentItem.amount;
     }, 0);
