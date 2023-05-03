@@ -5,5 +5,8 @@
 
    // import icons
    import { IoMdAdd, IoMdClose, IoMdRemove } from 'react-icons/io';
-   
+
+   //import cart context
+   import { CartContext } from '../contexts/CartContext';
+
 
