@@ -2,7 +2,15 @@ import React,{useContext} from 'react';
     // import link
 import {link} from 'react-router-dom';
     // import icons
-export const Product = () => {
+import {BsPlus, BsEyeFill} from 'react-icons.bs';
+    // import cart context
+import {Cartcontext } from '../contexts/Cartcontext';
+
+const product = ({ product }) => {
+   
+   }
+}
+    export const Product = () => {
   return (
     <div>Product</div>
   )
