@@ -1,5 +1,5 @@
 import React from "react";
 
 export const Footer = () => {
-  return <div>Footer</div>;
+  return <footer className="bg-primary py-12"></footer>;
 };
