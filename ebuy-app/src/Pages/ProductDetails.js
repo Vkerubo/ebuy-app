@@ -8,7 +8,10 @@ import { ProductContext } from '../contexts/ProductContext';
 
 const ProductDetails = () => {
     // get the product id from url
-    
+    const { id } = useParams();
+  const { products } = useContext(ProductContext);
+  const { addToCart } = useContext(CartContext);
+
 
 
 
