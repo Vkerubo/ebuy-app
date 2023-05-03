@@ -16,7 +16,14 @@ const ProductDetails = () => {
         return item.id === parseInt(id);
       });
 
-
+  // if product is not found
+  if (!product) {
+    return (
+      <section className='h-screen flex justify-center items-center'>
+        Loading...
+      </section>
+    );
+  }
 
 
 
