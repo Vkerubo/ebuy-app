@@ -9,4 +9,6 @@ import SidebarProvider from './contexts/SidebarContext';
 // cart provider
 import CartProvider from './contexts/CartContext';
 
+//new root
+const root = ReactDOM.createRoot(document.getElementById('root'));
 
