@@ -11,8 +11,10 @@ const ProductDetails = () => {
     const { id } = useParams();
   const { products } = useContext(ProductContext);
   const { addToCart } = useContext(CartContext);
-
-
+     // get the single product based on the id
+     const product = products.find((item) => {
+        return item.id === parseInt(id);
+      });
 
 
 
