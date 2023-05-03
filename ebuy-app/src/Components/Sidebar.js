@@ -27,6 +27,13 @@ const Sidebar = () => {
             Shopping Bag ({itemAmount})
           </div>
           {/* icon */}
+          <div
+          onClick={handleClose}
+          className='cursor-pointer w-8 h-8 flex justify-center items-center'
+        >
+          <IoMdArrowForward className='text-2xl' />
+        </div>
+      </div>
   
     )
 
