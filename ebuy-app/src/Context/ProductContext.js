@@ -1,4 +1,4 @@
-import React ,{createContext, useState, useEffect}from 'react'
+import React ,{createContext, useState, useEffect}from 'react';
 // create context
 
 export const ProductContext = createContext();
@@ -21,5 +21,5 @@ return (
     </ProductContext.provider>
 );
     };
-    
+
 export default productprovider;
