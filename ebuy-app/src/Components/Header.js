@@ -11,6 +11,16 @@ import { Link } from 'react-router-dom';
 import Logo from '../img/logo.svg';
 
 const Header = () => {
+// header state
+const [isActive, setIsActive] = useState(false);
+const { isOpen, setIsOpen } = useContext(SidebarContext);
+const { itemAmount } = useContext(CartContext);
+// event listener
+useEffect(() => {
+  window.addEventListener('scroll', () => {
+    window.scrollY > 60 ? setIsActive(true) : setIsActive(false);
+  });
+});
 
 
 
