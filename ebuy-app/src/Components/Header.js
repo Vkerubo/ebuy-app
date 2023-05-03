@@ -7,7 +7,10 @@ import { CartContext } from '../contexts/CartContext';
 import { BsBag } from 'react-icons/bs';
 // import link
 import { Link } from 'react-router-dom';
+// import logo
+import Logo from '../img/logo.svg';
 
+const Header = () => {
 
 
 
