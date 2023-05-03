@@ -7,6 +7,8 @@ import { CartContext } from '../contexts/CartContext';
 import { ProductContext } from '../contexts/ProductContext';
 
 const ProductDetails = () => {
+    // get the product id from url
+    
 
 
 
