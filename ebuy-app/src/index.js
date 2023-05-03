@@ -12,6 +12,8 @@ import CartProvider from './contexts/CartContext';
 //new root
 const root = ReactDOM.createRoot(document.getElementById('root'));
 
+
+//render's main components
 root.render(
   <SidebarProvider>
     <CartProvider>
