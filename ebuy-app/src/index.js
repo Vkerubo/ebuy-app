@@ -1,17 +1,16 @@
-import React from 'react';
-import ReactDOM from 'react-dom/client';
-import './index.css';
-import App from './App';
+import React from "react";
+import ReactDOM from "react-dom/client";
+import "./index.css";
+import App from "./App";
 // product provider
-import ProductProvider from './contexts/ProductContext';
+import ProductProvider from "./Context/ProductContext";
 // sidebar provider
-import SidebarProvider from './contexts/SidebarContext';
+import SidebarProvider from "./Context/SidebarContext";
 // cart provider
-import CartProvider from './contexts/CartContext';
+import CartProvider from "./Context/CartContext";
 
 //new root
-const root = ReactDOM.createRoot(document.getElementById('root'));
-
+const root = ReactDOM.createRoot(document.getElementById("root"));
 
 //render's main components
 root.render(
@@ -25,4 +24,3 @@ root.render(
     </CartProvider>
   </SidebarProvider>
 );
-
