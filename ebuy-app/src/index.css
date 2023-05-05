@@ -2,6 +2,8 @@
 @import "tailwindcss/components";
 @import "tailwindcss/utilities";
 
+/* @import "./tailwind.config.js"; */
+
 @layer base {
   body {
     @apply font-primary text-primary;

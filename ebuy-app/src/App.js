@@ -8,12 +8,15 @@ import ProductDetails from "./Pages/ProductDetails";
 import Sidebar from "./Components/Sidebar";
 import Header from "./Components/Header";
 import Footer from "./Components/Footer";
+import "./App.css";
 
 const App = () => {
   return (
     <div className="overflow-hidden">
       <Router>
+      <div className="header-container">
         <Header />
+       </div>
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/product/:id" element={<ProductDetails />} />
