@@ -1,0 +1,40 @@
+.hero-container {
+    background: linear-gradient(
+        rgba(255, 255, 255, 0.8),
+        rgba(255, 255, 255, 0.8)
+      ),
+      url("../img/woman_hero.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.2);
+    font-size: 1.8rem;
+    font-weight: bold;
+    text-align: right;
+    font-family: A;
+    color: grey;
+    display: flex;
+    justify-content: flex-end;
+  }
+
+  .hero-container .flex {
+    text-align: right;
+    justify-content: flex-end;
+  }
+
+  .text-1 {
+    position: absolute;
+    right: 30px;
+    padding-top: 80px;
+  }
+  
+  .text-2 {
+    position: absolute;
+    right: 10px;
+  }
+  
+  .text-3 {
+    position: absolute;
+    right: 40px;
+    bottom: px;
+  }
+  

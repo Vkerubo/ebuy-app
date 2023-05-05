@@ -1,0 +1,34 @@
+/* CSS for the cart icon container */
+.cart-icon-container {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    width: 4100%;
+    margin-right: auto;
+  }
+  
+  /* CSS for the cart item */
+  .cart-item {
+    background-color: #f44336;
+    color: #fff;
+    font-size: 0.8rem;
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 8px;
+  }
+
+  .logo-image {
+    width: 30px !important;
+  }
+
+  .flex.items-center.justify-center {
+    margin-left: auto;
+  }
+
+  .w-8 {
+    width: 20%;
+  }

@@ -7,6 +7,8 @@ import { ProductContext } from "../Context/ProductContext";
 import Product from "../Components/Product";
 import Hero from "../Components/Hero";
 
+import './Home.css';
+
 //new component
 const Home = () => {
   // access the products getting them from product context
@@ -22,12 +24,10 @@ const Home = () => {
     <div>
       <Hero />
       <section className="py-16">
-        <div className="container mx-auto">
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 xl:grid-cols-5 gap-[30px] max-w-sm mx-auto md:max-w-none md:mx-0">
-            {filteredProducts.map((product) => {
-              return <Product product={product} key={product.id} />;
-            })}
-          </div>
+        <div className="container">
+          {filteredProducts.map((product) => {
+            return <Product product={product} key={product.id} className="product" />;
+          })}
         </div>
       </section>
     </div>
